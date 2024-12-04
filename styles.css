@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+/* Business Card Styles */
+.business-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #333333;
+}
+
+/* Header Section */
+.card-header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #0078d4;
+}
+
+.card-header h2 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #555555;
+}
+
+/* Body Section */
+.card-body {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.card-body p {
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+.card-footer {
+    font-size: 0.9rem;
+    color: #0078d4;
+}
+
+.card-footer a {
+    color: #0078d4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .business-card {
+        padding: 15px;
+    }
+
+    .card-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .card-header h2 {
+        font-size: 1rem;
+    }
+
+    .card-body p {
+        font-size: 0.9rem;
+    }
+
+    .card-footer {
+        font-size: 0.8rem;
+    }
+}
